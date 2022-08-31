@@ -75,7 +75,7 @@ The OR operator indicates that either component within the expression could be t
 Flags can affect the search of regular expressions. There are six different types of flags: 
 - `i` this flag makes the search non-case sensitive
 - `g` this flag makes it so it will search for all matches, withouth it, it will only return the first result
-- `m` this flag is called multiline mode. It only affest the behavior of `^` and `$`, allowing to search to cover multiple lines of text. 
+- `m` this flag is called multiline mode. It only affects the behavior of `^` and `$`, allowing to search to cover multiple lines of text. 
 - `s` this flag enables "dotall" mode, that allows a dot to match newline character
 - `u` this flag enables Unicode support, enabling correct processing of surrogate pairs
 - `y` this flag searches the exact position in the text. Also called "Sticky"
